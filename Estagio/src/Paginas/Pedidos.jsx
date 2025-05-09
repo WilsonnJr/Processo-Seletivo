@@ -28,7 +28,7 @@ function Pedidos() {
       {pedidos.map(pedido => (
         <div key={pedido.id} style={{ border: '1px solid #ccc', margin: '10px 0', padding: 10, borderRadius: 8 }}>
           <h3>Pedido #{pedido.id}</h3>
-          <p><strong>Cliente:</strong> {getClienteNome(pedido.clienteId)}</p>
+          <p><strong>Cliente:</strong> {getClienteNome(pedido.cliente)}</p>
           <p><strong>Data:</strong> {pedido.data}</p>
           <p><strong>Valor Total:</strong> R$ {pedido.valorTotal}</p>
           <button onClick={() => navigate(`/pedido/${pedido.id}`)}>Ver Detalhes</button>

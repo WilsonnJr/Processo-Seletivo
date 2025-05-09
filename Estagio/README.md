@@ -1,19 +1,22 @@
 ### Como rodar o projeto (Backend + Frontend)
 
-#### 1. Iniciar o **Backend**
+---
 
-1. Abra um terminal.
-2. Navegue até a pasta do Backend:
+### Backend
 
-   ```bash
-   cd Estagio/Backend/
-   ```
-3. Instale as dependências:
+1. Clone o repositório:
 
    ```bash
-   npm install
+   git clone https://github.com/WilsonnJr/Processo-Seletivo
    ```
-4. Inicie o servidor backend:
+
+2. Acesse a pasta do backend:
+
+   ```bash
+   cd Processo-Seletivo/Estagio/Backend
+   ```
+
+3. Inicie o servidor backend:
 
    ```bash
    node server.js
@@ -21,23 +24,26 @@
 
 ---
 
-#### 2. Iniciar o **Frontend**
+### Frontend
 
-1. Abra **outro terminal** (para rodar em paralelo com o backend).
-2. Navegue até a pasta do Frontend:
+1. Acesse a pasta do frontend:
 
    ```bash
    cd Estagio/
    ```
-3. Instale as dependências:
+
+2. Instale as dependências:
 
    ```bash
    npm install
    ```
-4. Inicie o servidor de desenvolvimento:
+
+3. Inicie o servidor de desenvolvimento:
 
    ```bash
    npm run dev
    ```
 
 ---
+
+Se houver algum erro, verifique se todas as dependências estão instaladas corretamente e se a API está em execução antes de iniciar o frontend.
